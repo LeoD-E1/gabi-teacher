@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family:'Expletus Sans';
+  src: url(/public/fonts/Expletus_Sans/ExpletusSans-VariableFont_wght.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url(/public/fonts/Lato/Lato-Regular.ttf) format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Tangerine';
+  src: url(/public/fonts/Tangerine/Tangerine-Regular.ttf) format('truetype');
+  font-weight: bold;
+  font-size: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/public/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+  font-weight: normal;
+  font-size: normal;
+}
+
+@layer base {
+  body {
+    @apply font-montserrat
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-expletus;
+  }
+}
+
+@layer components {
+
+  .btn-common {
+    padding: 10px 30px;
+    background-color: theme('colors.orange');
+    border-radius: 40px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    border: 2px solid transparent;
+    transition: 200ms all
+  }
+
+  .btn-common:hover {
+    background-color: theme('colors.white');
+    color: theme('colors.orange');
+    border: 2px solid theme('colors.orange');
+  }
+
+  .hero-area {
+    width: 100%;
+    position: relative;
+  }
+
+  .hero-area .overlay {
+    background: linear-gradient(to bottom, #374050 0%, #798696 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    opacity: 0.7;
+  }
+}
