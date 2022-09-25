@@ -4,14 +4,15 @@ import Cover from '../components/Layout/Cover';
 
 function Home() {
   const coverData = {
-    title: 'Build in your way but with our experts',
+    title: 'Tu escuela de inglés online',
     description:
-      'Odio incidunt nam itaque sed eius modi error totam sit illum. Voluptas doloribus asperiores quaerat aperiam.',
-    buttonText: 'Get Started!',
+      'Capacitacion de inglés para personas que quieran aprender desde los básicos',
+    buttonText: '¡Comenzar!',
     action: () => console.log('Start'),
     imageUrl: bg,
     height: '100vh',
-    align: 'start',
+    align: 'center',
+    justify: 'start',
   };
   return <Cover {...coverData} />;
 }

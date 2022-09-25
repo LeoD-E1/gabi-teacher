@@ -4,28 +4,28 @@
 
 @font-face {
   font-family:'Expletus Sans';
-  src: url(/public/fonts/Expletus_Sans/ExpletusSans-VariableFont_wght.ttf) format('truetype');
+  src: url(/fonts/Expletus_Sans/ExpletusSans-VariableFont_wght.ttf) format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Lato';
-  src: url(/public/fonts/Lato/Lato-Regular.ttf) format('truetype');
+  src: url(/fonts/Lato/Lato-Regular.ttf) format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Tangerine';
-  src: url(/public/fonts/Tangerine/Tangerine-Regular.ttf) format('truetype');
+  src: url(/fonts/Tangerine/Tangerine-Regular.ttf) format('truetype');
   font-weight: bold;
   font-size: normal;
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url(/public/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+  src: url(/fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
   font-weight: normal;
   font-size: normal;
 }
