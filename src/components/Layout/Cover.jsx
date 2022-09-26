@@ -20,18 +20,19 @@ const Cover = ({
 			}}
 		>
 			<div className='overlay'></div>
-
 			<div className={`h-full relative flex items-${align} justify-${justify}`}>
-				<div className={`sm:p-5 md:p-10 md:max-w-3xl`}>
-					<h1 className='text-white font-bold text-4xl lg:text-5xl'>
-						{title}{' '}
-					</h1>
-					<p className='my-8 text-white sm:text-xl lg:text-2xl'>
-						{description}
-					</p>
-					<button className='btn-common' onClick={actionBtn}>
-						{buttonText}
-					</button>
+				<div className='theme-container'>
+					<div className={`sm:p-5 md:p-10 md:max-w-3xl`}>
+						<h1 className='text-white font-bold text-4xl lg:text-5xl'>
+							{title}{' '}
+						</h1>
+						<p className='my-8 text-white sm:text-xl lg:text-2xl'>
+							{description}
+						</p>
+						<button className='btn-common' onClick={actionBtn}>
+							{buttonText}
+						</button>
+					</div>
 				</div>
 			</div>
 		</div>
