@@ -31,14 +31,14 @@ const Navbar = () => {
 			link: '',
 		},
 		{
-			id: 5,
+			id: 6,
 			title: 'registrarme',
 			link: '',
 		},
 	]);
 
 	return (
-		<header className='w-full fixed z-10 p-4 border-b-2 border-gray'>
+		<header className='w-full fixed z-10 p-4 border-b-2 bg-marineBlue border-gray'>
 			<div className='theme-container flex justify-between items-center'>
 				<section>
 					<img src={logo} alt='Gabiteacher-Logo' className='max-h-10' />
